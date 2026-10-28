@@ -1,0 +1,64 @@
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    position: sticky; top:0;
+
+    background-image: url(img/fondo.png);
+    background-size: 250px;
+    color: transparent;
+    background-clip: text;
+}
+
+.buscador{
+    display: block;
+    position: relative;
+    background-color: rgb(208, 208, 255);
+    size: 500px;
+}
+
+.navegacion{
+background-color: rgb(162, 226, 255);
+padding: 1rem 2.rem;
+}
+
+.links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.links a{
+    color: #fff; 
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    padding: 0.5rem 1rem; 
+    transition: background-color 0.3 ease; 
+}
+
+.links a:hover{
+    background-color: rgb(138, 192, 218);
+    border-radius: 12px;
+}
+
+.button{
+    background-color: rgb(208, 208, 255);
+    font-family: Poppins, sans-serif;
+}
+
+body{
+    display: block;
+    align-content: center;
+}
+
+
+.presentacion{
+    display: flex;
+    border-radius: 14px;
+    background-color: #fff;
+    font-family: Poppins, sans-serif;
+    justify-content: center;
+}
